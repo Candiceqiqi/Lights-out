@@ -1,0 +1,290 @@
+var _ = require("lodash");
+
+var s=`icxjubroqtunzeyzpomfksahgw
+ibxjvbroqtunleyzjdmfksahow
+icxjvbroqtinleyzpdmflsahnw
+icxjvbnoqtunleyvpgmfksahgw
+wcxjvbroqrunleyzpdmfksahge
+icxjtbroqtjzleyzpdmfksahgw
+icxjvbrohtunleyzpdmfkbahsw
+xcxjvbroqcunleyzpdmfksaxgw
+ycxjvbroqtunleyzpowfksahgw
+icxfvbroqtunleyzpdmfksncgw
+ixxjvbuoqtunleyzpdvfksahgw
+icfjvbroqtunleyzpdmfksadgt
+icxjvbroqdunleyzpdafksqhgw
+icxjvbrobtunlelzpdmfkuahgs
+ujxjvbroqtunleyzpdmqksahgw
+icqjvsroqtunleyzpdmfksahuw
+icxjvbroptpnleyzpdmfksangw
+ipxjvbroqtunleyzpdmfesahgi
+icajvbroqtunltyzpdqfksahgw
+ickjvbroqtuzleyzpdmfgsahgw
+icxjvbroqtunledzpdmwksahgz
+icxjvlroqtsnleyzpdmfksvhgw
+icxjvbroqtunleyzpdsfysahvw
+icxjvbroqtunwnyzydmfksahgw
+ionjvbroqtunleyzpdmfksahgj
+icxjvwriqtunleyzpdmfksahgi
+ocxjvbroztunleyzpdmfksapgw
+icxjvbroqtmnlewzpumfksahgw
+ucxjvbroqtunleyzpdmzktahgw
+icxgvbroqtunleyztdmfktahgw
+icxhvbroqttnleybpdmfksahgw
+icxjvbroqtugleyzpdxfkeahgw
+acxjvbroqvunlexzpdmfksahgw
+icxjvbroqglnleyzpbmfksahgw
+icxjvbriqtnvleyzpdmfksahgw
+icxjvbreqtunlakzpdmfksahgw
+gcxjvbuoqtunleyzpdmfksawgw
+icxjvbroqtunleyzpddfkyzhgw
+icxjvbjoqtunleyzpdmfqsahhw
+icxjvjroqtunleyzpnmfksajgw
+ycxjvbroqtunmeyzcdmfksahgw
+irxkvbryqtunleyzpdmfksahgw
+isxjvbrlqtunleyzpdmsksahgw
+icxjvbcoqtunleyzpdfkksahgw
+ixnjvbroqtunleyzpdmfkqahgw
+wcxjvbroqhunleyzqdmfksahgw
+icljvurmqtunleyzpdmfksahgw
+ibxjvbroqtayleyzpdmfksahgw
+arxjvbroqiunleyzpdmfksahgw
+iuxjvbroqtunluyzpdmoksahgw
+icxjvbrmqtunleyzpdmfosahew
+isxjvbroqtunleyrpdmfksrhgw
+icxjvxrpqtunleyzpdmfkdahgw
+ichjvbrogtunllyzpdmfksahgw
+icxjvbeoqtunlryzpdmfksakgw
+icxjvbroqtcnemyzpdmfksahgw
+icxjvbroqtybledzpdmfksahgw
+icxjvbrqqtunleyzpdmfksgngw
+icgjvbroqtunleyzmdmfksabgw
+icxjtbroqtunleyzkdmfksahww
+icxjvbfoqtunleyzpamfqsahgw
+icxjvbroknuyleyzpdmfksahgw
+icxjvbroqtujleyzpdmaksaigw
+icxjvbroqtnnlmyzpdmflsahgw
+icxjvbroqtunlefzpdmfsfahgw
+icxjvdroqtusleyzpdzfksahgw
+icxjvbioqtunlsyzpdmfkshhgw
+icxbvbrodtunleyzpdmoksahgw
+icxjvbroqtuvleyzpdmfkbahmw
+iyxjvbroqtunljvzpdmfksahgw
+icxjvbroqtudleynddmfksahgw
+icxjvwroqtnnleyzpdmfksahgz
+ichjvbroqtunleyzjdmeksahgw
+icxjvbrostunluyrpdmfksahgw
+icfjvbroqtunleyxpdgfksahgw
+nhxjvbroqtunlerzpdmfksahgw
+icxjvbrothunlexzpdmfksahgw
+icxjvbrzltqnleyzpdmfksahgw
+icxjvbrhqtunleyzpdmfksajgy
+vcxjvjroqiunleyzpdmfksahgw
+icxjfbroltunleyzpdmqksahgw
+icxbvbroqtunleyzpdofasahgw
+icxjvbkoqtunveyzpdmfksaqgw
+icxsebroqtunleyzpdmuksahgw
+icxjvbroquunlpyrpdmfksahgw
+icxhvbroqtunjeyzpdmrksahgw
+icdjvbroqtunlzyzpdmfksangw
+jcxqvbroqtvnleyzpdmfksahgw
+icxjvxroqtunleyrpdmfxsahgw
+icxjvnroqtunleyzpdmfssyhgw
+icxjvbraptunleyzpdofksahgw
+icxjvbroatunleyjpdmfbsahgw
+icxjvbroytlnlryzpdmfksahgw
+iaxjvbroqkunleyzpdmfcsahgw
+ucxjvbroqtuileyzzdmfksahgw
+icxjqbroqtcnleyzpgmfksahgw
+icxjvbloqtunleyzadmfksaqgw
+icxjvbroqtunleyzkdmnksakgw
+icxjvbroqtunleyjpdxfksahvw
+iqxjvbroqtujleyzpdmfklahgw
+icgjvbroqtunleyzpdmfksbhgb
+icxjzbroqtunleyzpdmfkdahgg
+icxjvbrobtunloywpdmfksahgw
+icxavbroqtunleyfpdmfksahgd
+icxjvbroqtunleyophmfksahkw
+icxjndroqtunlyyzpdmfksahgw
+icxjvbroqtjnleyppdmvksahgw
+icxjvbroonfnleyzpdmfksahgw
+icxjvbrqqtlnljyzpdmfksahgw
+icxjvbrzqtunlelspdmfksahgw
+icxjvbooqtunleyztdmfkfahgw
+icajvbroltunlnyzpdmfksahgw
+icxjvbroqtunleyzidmdkschgw
+icxjvbroktupleyzpdmfksahyw
+icxjcbroyeunleyzpdmfksahgw
+icxjvbroqtunlezkpdmfksahsw
+icxjvbroqtunlejzpcmfksrhgw
+icxjvvroqtunlsyzkdmfksahgw
+icxjnbroqtunbeyzpdmfpsahgw
+itxjbbroqtunleyzpemfksahgw
+icxjvbroqtunlrkzpdmfksshgw
+rcxjvbroqtujlbyzpdmfksahgw
+icxjvmroqtugleazpdmfksahgw
+icxjvbfoqtunleylpdmfkeahgw
+icnjvoroktunleyzpdmfksahgw
+icxjvbroqtunlvyzpdmfkfahgr
+icxjvbroqtgnseyzpdmfxsahgw
+scxjvbroqtunleycpdmfksdhgw
+icxhvbxoqtunleuzpdmfksahgw
+icxjvbruqtunleyzpnmfksfhgw
+icdjvbroqtunleyzpdmfksahup
+ihxjvbroqtunleovpdmfksahgw
+icxjvbroqtunleyzxdmfksahzv
+ocxjvbioqtunleyzpdmfzsahgw
+idxjvbroqtunlyyzpdofksahgw
+izdjvbroqtunleyzpdtfksahgw
+icxjvbrnqtunleyzpdmfksbhgb
+icxjvbrjqtunleyhpdmrksahgw
+icxjvbroqtunleyzpdbflsahgg
+icxjvbmfqtunleyzpdmfkaahgw
+idxjvbroqtunlsyzpdffksahgw
+bcxjvbroqtunleyzpkmfkswhgw
+ivxjvbroqtdnleyzpdmbksahgw
+icxpvbboqtunleyzpdmfksahtw
+ibxjvbroqtunlehzpdmfkmahgw
+icxjvbboqtunleyzpdmfkaahgv
+icxjlaroqtuileyzpdmfksahgw
+icxjvbroftunleyzpdmfqsahew
+ichjvbroqtunleyzpdmiwsahgw
+icxrvbvoqtunleyzpdmiksahgw
+icxjvbroqtunldydpdmfksahgl
+icogvbroqtunleyzpdmfnsahgw
+icxjvbroqtunleszodmfkswhgw
+icxjvbrontunleyztemfksahgw
+icxjvbrovtunleyzpdvkksahgw
+icxjvbroqqucteyzpdmfksahgw
+icmovbroptunleyzpdmfksahgw
+icxjvbqoftunleyzvdmfksahgw
+icxjvbdoqtunleyzpdmfkadhgw
+icxjvbroqtunlgnzpdmfksaqgw
+icxjvbroqtunieygpdyfksahgw
+acdjvbroqtunleyzpdmfkwahgw
+icxjvbroqtunleyzpdmfkfahlj
+icxjvbgoqtunleyepdmvksahgw
+icxjvbpobbunleyzpdmfksahgw
+icxjvbroqtunleurpdmfktahgw
+ipxjvbzoqtunleyzpdmffsahgw
+icxjtbroqtunllyzpdmuksahgw
+icxjvbroqtunbsyzadmfksahgw
+ihxjvoroqtuqleyzpdmfksahgw
+idxjmbroqqunleyzpdmfksahgw
+wcxjvbdoqtunleyzpdmfksahgr
+icxjvbroqtunleygptmfksahgj
+ipxjvbrsqtunleyzpdmfksghgw
+ycxjvbroqtunluyzkdmfksahgw
+icxjvbroxtuulejzpdmfksahgw
+icqjvbroqtunlwyypdmfksahgw
+ioxjhbroqtunleyzphmfksahgw
+icxjvbgoqnunleyzpdmfksahaw
+mcxjvbroqtunleyzpdmfksihgh
+icxjsbroqtunlqyzpdmfksawgw
+icxjvbroqtuoleycpdmftsahgw
+icxjvbroqtunleyzgdifksahlw
+icxjvbmoqtunleyzjfmfksahgw
+icxjvbroqtunlezopdmfksahge
+icxjvbroqtbnlefzpdmfosahgw
+tcxjvbromtunlevzpdmfksahgw
+irxjgbroqtunleyzpdmfksthgw
+icxjvbrojtunleyxpdmoksahgw
+icxrvbroytpnleyzpdmfksahgw
+icxjvbroqtunfeyupdmfksasgw
+ihqjvbroqtunleyzpdmftsahgw
+icxjobroqkunleozpdmfksahgw
+icjjjbroqtualeyzpdmfksahgw
+icxjvbroqtunaeytpdmfksahvw
+icxjvbroqtunzeyzpdmfkshhxw
+icxqvbroqtucleyzxdmfksahgw
+icxjvbrogturleyzxdmfksahgw
+icxjvoqoqtunleyzpdcfksahgw
+iuxjvbroqtunleyzpdmfksopgw
+icxjveroqtunleyzptmfksalgw
+icxjvbroqtunleyzpdmfwcahhw
+iwxjvbroqtlnleyzpdmfksyhgw
+ectjvbroqtanleyzpdmfksahgw
+icxjvnroqtyhleyzpdmfksahgw
+icvjvhboqtunleyzpdmfksahgw
+icxjtbroqtuzleyupdmfksahgw
+icjjvproqtunleyzpsmfksahgw
+icdjvbroqtutleyzpdmiksahgw
+icxjvwroqtujleyzpdmfksahgc
+icxjxbroqtunleyzpdwhksahgw
+icxjvbqoqtunleyzpdmvfsahgw
+icajvbroqtusleyzpdmfksaagw
+icxjvbroqtunbtyzpdmfksmhgw
+kcxjvbroqtxnleyzpdmfkskhgw
+icxjvbqogfunleyzpdmfksahgw
+icxjvbroqtubleyzpdmfdswhgw
+icxjvprlqtunleyzpdmffsahgw
+icxjxbroqtucleyzpdmfksakgw
+dcxrvbroqtunleycpdmfksahgw
+icxjvbrobtunleyzpomfksahgu
+ocxrvbroqtunleyzpdmfssahgw
+icxjvbroktunlejzpdmfksahzw
+icxjvbrovtunleyzmdmfkhahgw
+icxjvbroqtudleygpdmfksfhgw
+bcxjvbroqtubllyzpdmfksahgw
+icxwvbrontunzeyzpdmfksahgw
+icxjvbroqtunleysjbmfksahgw
+icxjvvroztunleyzpdmfksjhgw
+ivxjxbroqtunleyzpdmfksahew
+icxjvbroqtunleyupqufksahgw
+icxjvmrcqtunleyzpdmxksahgw
+icxjvgroqtunleyzpdgfkuahgw
+icxjvbroqthnqeyfpdmfksahgw
+icxjsbuodtunleyzpdmfksahgw
+iuxjzbroqtunleyzpdrfksahgw
+icxjvbrobtunlelzpdmfksahgs
+icxjvbroqtzhljyzpdmfksahgw
+inxtvbroqtunleyzpdmeksahgw
+icgjvbroqtunleyztdmfksahgq
+icxjvagoqtugleyzpdmfksahgw
+icxuvbroqtunleyzpimfkyahgw
+icxzvbroqtfhleyzpdmfksahgw
+icxjjbroqtqnleyzpdmnksahgw
+icjrvbroqtunleszpdmfksahgw
+iexjvbroqtunlgyzpdmfksacgw
+rcxjvbkoqtuoleyzpdmfksahgw
+icxjvbroqgunlwyzpdmfksqhgw
+icxjvbroqtunleqzpsmfksqhgw
+icxjvbroqtubaeyzpdmfksaugw`.split("\n");
+//console.log(s);
+
+// s = `abcdef
+// bababc
+// abbcde
+// abcccd
+// aabcdd
+// abcdee
+// ababab
+// `.split("\n")
+
+let rowOfCount2 = 0;
+let rowOfCount3 = 0;
+
+for(let i=0;i<s.length;i++){
+     let sub=s[i].split("");
+     // sub looks like: "i", "c", "x", ...
+     const counts = {}
+    for(let j=0;j<sub.length;j++){
+        const letter = sub[j];
+        // letter looks like: "i"
+        if (!counts[letter]) {
+            counts[letter] = 0;
+        }
+        counts[letter] += 1;
+        // let subb=_.without(sub,s[j]);
+        // let dif=sub.length-subb.length;
+    }
+    // counts: {"a": 2, "b": 2, "c": 3}
+    if (Object.values(counts).indexOf(2) > -1) rowOfCount2++;
+    if (Object.values(counts).indexOf(3) > -1) rowOfCount3++;
+    // for (const key in counts) {
+    //     if (counts[key] === 2) rowOfCount2++;
+    //     if (counts[key] === 3) rowOfCount3++;
+    // }
+
+}
+console.log(rowOfCount2 * rowOfCount3)
