@@ -52,13 +52,17 @@ class Board extends Component {
   /** create a board nrows high/ncols wide, each cell randomly lit or unlit */
 
   createBoard() {
-    let intBoard = new Array(this.props.nrows).fill(new Array(this.props.ncols));
+    // let intBoard = new Array(this.props.nrows).fill(new Array(this.props.ncols));
+    // let intBoard = Array(this.props.nrows).fill().map(() => Array(this.props.ncols).fill().map(() => undefined))
+    let intBoard = [];
+    // console.log(intBoard);
 
     //  console.log(intBoard[0][0]);
     for (let i = 0; i < this.props.nrows; i++) {
+      intBoard[i] = Array(this.props.ncols);
       for (let j = 0; j < this.props.ncols; j++) {
-        intBoard[i][j] = (Math.random() > this.props.chanceLightStartsOn) ? "." : "o";
-        console.log(i + "---" + j + ":::" + intBoard[i][j]);
+        intBoard[i][j] = (Math.random() > this.props.chanceLightStartsOn) ? false: true;
+     //   console.log(i + "---" + j + ":::" + intBoard[i][j]);
       }
     }
     // TODO: create array-of-arrays of true/false values
@@ -68,73 +72,51 @@ class Board extends Component {
   /** handle changing a cell: update board & determine if winner */
 
   flipCellsAroundMe(coord) {
+    console.log(coord);
     console.log("flippping!!!!!");
     let { ncols, nrows } = this.props;
     let board = this.state.board;
     let [y, x] = coord.split("-").map(Number);
-    this.setState(this.flipCell([y, x]));
+    this.setState(this.flipCell(y, x));
 
   }
   flipCell(y, x) {
-    //   // if this coord is actually on board, flip it
-    //           let currBoard=this.state.board;
-    //    if (x >= 0 && x < this.props.ncols && y >= 0 && y < this.props.nrows) {
-    //       this.state.board[y][x] = !this.state.board[y][x];
-
-    //     }
-    //   // TODO: flip this cell and the cells around it
-
-    //     if (x >= 0 && x < this.props.ncols && y >= 0 && y+1 < this.props.nrows) {
-    //       this.state.board[y+1][x] = !this.state.board[y+1][x];
-
-    //     }
-    //     if (x >= 0 && x < this.props.ncols && y-1 >= 0 && y< this.props.nrows) {
-    //       this.state.board[y-1][x] = !this.state.board[y-1][x];
-
-    //     }
-    //     if (x >= 0 && x+1 < this.props.ncols && y-1 >= 0 && y< this.props.nrows) {
-    //       this.state.board[y][x+1] = !this.state.board[y][x+1];
-
-    //     }
-    //     if (x-1 >= 0 && x < this.props.ncols && y-1 >= 0 && y< this.props.nrows) {
-    //       this.state.board[y][x-1] = !this.state.board[y][x-1];
-
-    //     }
-
-    //     this.state.hasWon=(()=>{for(let i=0; i<this.props.ncols;i++ ){
-    //       for(let j=0;j<this.props.nrows;j++){
-    //         if(!this.state.board[i][j])
-    //             return false;
-    //       }
-    //     }
-    //     return true;
-    //   })
-    // // win when every cell is turned off
-    // // TODO: determine is the game has been won
-
+    console.log("flip");
+     console.log(y+"-------"+x);
 
     // if this coord is actually on board, flip it
     let currBoard = this.state.board;
-    if (x >= 0 && x < this.props.ncols && y >= 0 && y < this.props.nrows) {
+    if ((x >= 0 && x < this.props.ncols) && (y >= 0 && y < this.props.nrows)) {
+      console.log("before::::"+currBoard[y][x]);
       currBoard[y][x] = !currBoard[y][x];
-
+     
     }
     // TODO: flip this cell and the cells around it
 
     if (x >= 0 && x < this.props.ncols && y >= 0 && y + 1 < this.props.nrows) {
+      console.log("before::::"+currBoard[y][x]);
       currBoard[y + 1][x] = !currBoard[y + 1][x];
+      console.log("after::::"+currBoard[y][x]);
 
     }
     if (x >= 0 && x < this.props.ncols && y - 1 >= 0 && y < this.props.nrows) {
+      console.log("before::::"+currBoard[y][x]);
       currBoard[y - 1][x] = !currBoard[y - 1][x];
+      console.log("after::::"+currBoard[y][x]);
+
 
     }
     if (x >= 0 && x + 1 < this.props.ncols && y - 1 >= 0 && y < this.props.nrows) {
+      console.log("before::::"+currBoard[y][x]);
       currBoard[y][x + 1] = !currBoard[y][x + 1];
+      console.log("after::::"+currBoard[y][x]);
+
 
     }
     if (x - 1 >= 0 && x < this.props.ncols && y - 1 >= 0 && y < this.props.nrows) {
+      console.log("before::::"+currBoard[y][x]);
       currBoard[y][x - 1] = !currBoard[y][x - 1];
+      console.log("after::::"+currBoard[y][x]);
 
     }
 
@@ -164,7 +146,7 @@ class Board extends Component {
       let cells = [];
       for (let i = 0; i < this.props.ncols; i++) {
         for (let j = 0; j < this.props.nrows; j++) {
-          board[i][j] === "o" ?
+          board[i][j] === true ?
             cells.push(<Cell isLit={true} coord={i + "-" + j} flipCellsAroundMe={this.flipCellsAroundMe} />) :
             cells.push(<Cell isLit={false} coord={i + "-" + j} flipCellsAroundMe={this.flipCellsAroundMe} />);
 
